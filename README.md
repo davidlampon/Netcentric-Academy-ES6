@@ -20,3 +20,6 @@ Exercise files for the ES6 session @Netcentric on 9th of October 2015
 7. Templates
 8. Arrows
 9. Iterators
+
+## Slides
+Link to [slides](https://docs.google.com/presentation/d/1z7MSzztJBHsvWf2MimqGj8gmHY29Kn4xuEwwwopqb5E/edit#slide=id.gc410709ff_11_0) (only visible to Netcentric employees)
