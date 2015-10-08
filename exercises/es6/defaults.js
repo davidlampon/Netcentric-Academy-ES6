@@ -1,14 +1,14 @@
-describe("default parameters", function(){
+describe("default parameters =>", function(){
 
 	it("provides defaults", function(){
 
-		var doWork = function(name="Scott") {
+		var doWork = function(name="David") {
 			return name;
 		};
 
-		var result = doWork();
+		var result = doWork(); // try null, undefined and empty string as parameter
 
-		expect(result).toBe("?"); 
+		expect(result).toBe("?");
 
 	});
 
@@ -27,12 +27,9 @@ describe("default parameters", function(){
 
 	it("works with destructuring", function() {
 
-		let doWork = function(
-			     url,
-				{data = "Scott", cache = true}){
+		let doWork = function(url, {data = "David", cache = true}){
 			return data;
 		};
-
 
 		let result = doWork(
 				"api/test", {
@@ -41,7 +38,5 @@ describe("default parameters", function(){
 			);
 
 		expect(result).toBe("?");
-
 	});
-
 });

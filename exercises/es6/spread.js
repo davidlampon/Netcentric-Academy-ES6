@@ -1,4 +1,4 @@
-describe("the spread", function(){
+describe("the spread =>", function(){
 
 	it("can spread an array across parameters", function(){
 
@@ -7,13 +7,9 @@ describe("the spread", function(){
 		}
 
 		var result = doWork(...[1, 2, 3]);
-		
-		expect(result).toBe("?"); 
 
+		expect(result).toBe("?");
 	});
-
-
-
 
 	it("can build arrays", function(){
 
@@ -21,7 +17,5 @@ describe("the spread", function(){
 		var b = [1, 2, 3, ...a, 7, 8, 9];
 
 		expect(b).toEqual("?");
-
 	});
-
 });

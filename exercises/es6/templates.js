@@ -1,14 +1,23 @@
-describe("template literals", function(){
+describe("template literals =>", function(){
 
-	it("can easily combine literals and data", function(){
+	it("can easily combine literals and data (1)", function(){
+
+		let doWork = function(name){
+			return "Hello, ${name}";
+		};
+
+		let result = doWork("David");
+		expect(result).toBe("?");
+	});
+
+	it("can easily combine literals and data (2)", function(){
 
 		let doWork = function(name){
 			return `Hello, ${name}`;
 		};
 
-		let result = doWork("Scott");
+		let result = doWork("David");
 		expect(result).toBe("?");
-
 	});
 
 
@@ -20,6 +29,15 @@ describe("template literals", function(){
 		let url = `http://apiserver/${category}/${id}`;
 
 		expect(url).toBe("?");
+	});
+
+	it("can use expressions", function(){
+
+		var x = 1;
+		var y = 3;
+		var result = `${x} + ${y} is ${x+y}`;
+
+		expect(result).toBe("?");
 	});
 
 	it("can use tags", function(){
@@ -40,7 +58,5 @@ describe("template literals", function(){
 		var result = upper `${x} + ${y} is ${x+y}`;
 
 		expect(result).toBe("?");
-
 	});
-
 });
