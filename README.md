@@ -18,3 +18,5 @@ Exercise files for the ES6 session @Netcentric on 9th of October 2015
 5. Rest
 6. Spread
 7. Templates
+8. Arrows
+9. Iterators
