@@ -94,4 +94,4 @@ describe("using const =>", function() {
       expect(result).toBe("?");
       expect(x).toBe("?");
   });
-}
+});
