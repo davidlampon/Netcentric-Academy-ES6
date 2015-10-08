@@ -7,4 +7,4 @@ Exercise files for the ES6 session @Netcentric on 9th of October 2015
 2. Execute npm install
 3. Execute bower install
 4. Launch gulp's default task
-5. Launch your browser and point to: http://localhost:9000/
+5. Launch your browser and point to <http://localhost:9000>
