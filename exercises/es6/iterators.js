@@ -1,4 +1,4 @@
-describe("iterables =>", function(){
+describe("iterators =>", function(){
 
 	it("can work with iterators at a low level", function(){
 

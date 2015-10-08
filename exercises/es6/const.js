@@ -1,4 +1,4 @@
-describe("using const", function() {
+describe("using const =>", function() {
   "use strict";
 
   it("will make a variable read-only (1)", function() {
@@ -94,20 +94,4 @@ describe("using const", function() {
       expect(result).toBe("?");
       expect(x).toBe("?");
   });
-
-  it("can shadow outer declaration (7)", function() {
-
-      if(true) {
-        const x = 12;
-      }
-
-      var doWork = function(){
-        let x = 10;
-        return x;
-      };
-
-      var result = doWork();
-      expect(result).toBe("?");
-      expect(x).toBe("?");
-  });
-});
+  

@@ -54,7 +54,7 @@ describe("destructuring =>", function() {
 
 		expect(x).toBe("?");
 		expect(y).toBe("?");
-		expect(z).toBe("?"); //toBeUndefined()
+		expect(z).toBe("?");
 	});
 
 	it("can destructure objects (1)", function() {
@@ -82,7 +82,7 @@ describe("destructuring =>", function() {
 		     return {
 			    firstName: "David",
 		        lastName: "Lampon",
-		        twitter: "davidlampon"
+		        handles: {twitter: "davidlampon"}
 		    };
 		};
 
