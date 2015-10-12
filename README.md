@@ -1,6 +1,15 @@
 # Netcentric-Academy-ES6
 Exercise files for the ES6 session @Netcentric on 9th of October 2015
 
+## Slides
+
+- Original presentation in pdf format can be found in the slides folder (~7MB)
+- Link to [slides](https://docs.google.com/presentation/d/1z7MSzztJBHsvWf2MimqGj8gmHY29Kn4xuEwwwopqb5E/edit#slide=id.gc410709ff_11_0) (only visible to Netcentric employees)
+
+## ES5 exercises
+
+Solutions to these exercises can be found in the 'exercises/js_good_parts' folder
+
 ## Installation steps
 
 1. Download repo
@@ -20,6 +29,3 @@ Exercise files for the ES6 session @Netcentric on 9th of October 2015
 7. Templates
 8. Arrows
 9. Iterators
-
-## Slides
-Link to [slides](https://docs.google.com/presentation/d/1z7MSzztJBHsvWf2MimqGj8gmHY29Kn4xuEwwwopqb5E/edit#slide=id.gc410709ff_11_0) (only visible to Netcentric employees)
