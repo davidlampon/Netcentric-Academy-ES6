@@ -18,7 +18,7 @@ Solutions to these exercises can be found in the 'exercises/js_good_parts' folde
 4. Launch gulp's default task
 5. Launch your browser and point to <http://localhost:9000>
 
-## Exercises
+## ES6 exercises
 
 1. Let
 2. Const
@@ -29,3 +29,8 @@ Solutions to these exercises can be found in the 'exercises/js_good_parts' folde
 7. Templates
 8. Arrows
 9. Iterators
+
+## Sources of inspiration
+
+- [JavaScript the Good Parts](http://www.pluralsight.com/courses/javascript-good-parts) by [https://github.com/douglascrockford](Douglas Crockford)
+- [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) by [Scott Allen](https://twitter.com/OdeToCode) and [Joe Eames](https://twitter.com/josepheames)
