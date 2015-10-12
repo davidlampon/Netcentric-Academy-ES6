@@ -32,5 +32,5 @@ Solutions to these exercises can be found in the 'exercises/js_good_parts' folde
 
 ## Sources of inspiration
 
-- [JavaScript the Good Parts](http://www.pluralsight.com/courses/javascript-good-parts) by [https://github.com/douglascrockford](Douglas Crockford)
+- [JavaScript the Good Parts](http://www.pluralsight.com/courses/javascript-good-parts) by [Douglas Crockford](https://github.com/douglascrockford)
 - [JavaScript Fundamentals for ES6](http://www.pluralsight.com/courses/javascript-fundamentals-es6) by [Scott Allen](https://twitter.com/OdeToCode) and [Joe Eames](https://twitter.com/josepheames)
